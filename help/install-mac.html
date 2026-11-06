@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install on a Mac, step by step | Reazix Billing Software</title>
+<meta name="description" content="Paste one line into Terminal and press Return. About 3 minutes, no password, and no &quot;Apple cannot check it&quot; message. Every step says what you will see.">
+<link rel="canonical" href="https://billing.reazix.com/help/install-mac.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#2563eb">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Reazix Billing Software">
+<meta property="og:title" content="Install on a Mac, step by step">
+<meta property="og:description" content="Paste one line into Terminal and press Return. About 3 minutes, no password, and no &quot;Apple cannot check it&quot; message. Every step says what you will see.">
+<meta property="og:url" content="https://billing.reazix.com/help/install-mac.html">
+<meta property="og:image" content="https://billing.reazix.com/help/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Install on a Mac, step by step">
+<meta name="twitter:description" content="Paste one line into Terminal and press Return. About 3 minutes, no password, and no &quot;Apple cannot check it&quot; message. Every step says what you will see.">
+<meta name="twitter:image" content="https://billing.reazix.com/help/assets/img/og.png">
+<link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="alternate" type="text/plain" title="Documentation for AI tools" href="llms.txt">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Documentation","item":"https://billing.reazix.com/help/"},{"@type":"ListItem","position":2,"name":"Start here","item":"https://billing.reazix.com/help/"},{"@type":"ListItem","position":3,"name":"Install on a Mac, step by step","item":"https://billing.reazix.com/help/install-mac.html"}]},{"@type":"TechArticle","headline":"Install on a Mac, step by step","description":"Paste one line into Terminal and press Return. About 3 minutes, no password, and no \"Apple cannot check it\" message. Every step says what you will see.","url":"https://billing.reazix.com/help/install-mac.html","dateModified":"2026-11-06","inLanguage":"en-IN","about":{"@type":"SoftwareApplication","name":"Reazix Billing Software"},"publisher":{"@type":"Organization","name":"Reazix","url":"https://reazix.com"},"image":"https://billing.reazix.com/help/assets/img/og.png"}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,750&family=Hind:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem('fgb-docs-theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <button class="menu-btn" type="button" aria-controls="sidebar" aria-expanded="false" aria-label="Open the menu">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+  <a class="brand" href="index.html">
+    <img src="assets/img/icon.svg" alt="" width="30" height="30">
+    <span>Reazix Billing</span>
+  </a>
+  <a class="top-link" href="support.html"><span class="top-link-text">Help &amp; Support</span></a>
+  <div class="search">
+    <label class="sr-only" for="q">Search the docs</label>
+    <input id="q" type="search" placeholder="Search" autocomplete="off" spellcheck="false">
+    <kbd class="search-key" aria-hidden="true">/</kbd>
+    <div class="results" role="listbox" hidden></div>
+  </div>
+  <button class="theme-btn" type="button" aria-label="Switch between light and dark">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+  </button>
+  <a class="download" href="https://billing.reazix.com/download/Reazix-Billing.zip">Download</a>
+</header>
+<div class="shell">
+  <nav class="sidebar" id="sidebar" aria-label="Documentation">
+      <div class="nav-group">
+        <p class="nav-heading">Start here</p>
+        <ul><li><a href="index.html">Welcome</a></li><li><a href="install.html">Install on Windows</a></li><li><a href="install-mac.html" aria-current="page">Install on a Mac</a></li><li><a href="install-linux.html">Install on Linux / NAS</a></li><li><a href="update.html">Updating</a></li><li><a href="first-run.html">First-run setup</a></li><li><a href="first-invoice.html">Your first invoice</a></li><li><a href="gst-basics.html">GST basics</a></li><li><a href="security.html">Is it safe?</a></li></ul>
+      </div>
+      <div class="nav-group">
+        <p class="nav-heading">Invoicing</p>
+        <ul><li><a href="invoices.html">Making an invoice</a></li><li><a href="invoice-options.html">Customize panel</a></li><li><a href="thermal-printing.html">Thermal receipts</a></li><li><a href="dashboard.html">Dashboard</a></li></ul>
+      </div>
+      <div class="nav-group">
+        <p class="nav-heading">Clients, stock and payments</p>
+        <ul><li><a href="clients.html">Clients</a></li><li><a href="products.html">Products and stock</a></li><li><a href="receipts.html">Payment receipts</a></li><li><a href="cash-book.html">Cash book</a></li><li><a href="recurring.html">Recurring invoices</a></li></ul>
+      </div>
+      <div class="nav-group">
+        <p class="nav-heading">Buying</p>
+        <ul><li><a href="purchases.html">Purchase bills</a></li><li><a href="expenses.html">Expenses</a></li></ul>
+      </div>
+      <div class="nav-group">
+        <p class="nav-heading">Tax and reports</p>
+        <ul><li><a href="gst-returns.html">GST returns</a></li><li><a href="reports.html">Reports</a></li><li><a href="income-tax.html">Income tax</a></li></ul>
+      </div>
+      <div class="nav-group">
+        <p class="nav-heading">Setting up</p>
+        <ul><li><a href="settings.html">Settings</a></li><li><a href="print-settings.html">Print and PDF settings</a></li><li><a href="backup.html">Backups and updates</a></li><li><a href="control-panel.html">Control Panel</a></li></ul>
+      </div>
+      <div class="nav-group">
+        <p class="nav-heading">Help</p>
+        <ul><li><a href="shortcuts.html">Getting around</a></li><li><a href="troubleshooting.html">Troubleshooting</a></li><li><a href="terminal.html">Using the Terminal</a></li><li><a href="limitations.html">What it does not do</a></li><li><a href="glossary.html">Glossary</a></li><li><a href="support.html">Help &amp; Support</a></li></ul>
+      </div>
+    <p class="sidebar-foot">Written for version 1.0.0. <a href="support.html#whats-new">What changed in each version</a></p>
+  </nav>
+  <div class="scrim" hidden></div>
+  <main id="main" class="doc">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Documentation</a> <span aria-hidden="true">/</span> Start here</nav>
+    <h1>Install on a Mac, step by step</h1>
+    <p class="lead">Paste one line into Terminal and press Return. About 3 minutes, no password, and no "Apple cannot check it" message. Every step says what you will see.</p>
+    <div class="ledger">
+
+
+<div class="note tip"><strong>Which guide is mine?</strong>
+<p><b>Windows</b> (most PCs and laptops): <a href="install.html">Install on Windows</a>.
+<b>Mac</b> (Apple logo top left): <a href="install-mac.html">Install on a Mac</a>.
+<b>Linux or a NAS</b>: <a href="install-linux.html">Install on Linux or a NAS</a>.
+Already installed? <a href="update.html">Updating</a>.
+Wondering whether it is safe? <a href="security.html">Is it safe? Security and privacy</a>.</p></div>
+
+<section id="before">
+<h2><a class="anchor" href="#before" aria-label="Link to this section">#</a>Before you start</h2>
+<ul>
+  <li><strong>macOS 11 Big Sur or newer.</strong> To check: click the Apple menu (the apple logo at the top left), then <span class="ui">About This Mac</span>.</li>
+  <li><strong>Internet</strong> for the install. After that the app works offline.</li>
+  <li><strong>About 600 MB of free space.</strong></li>
+</ul>
+</section>
+
+<section id="one-line">
+<h2><a class="anchor" href="#one-line" aria-label="Link to this section">#</a>Install with one line</h2>
+<ol class="steps">
+  <li><strong>Copy this line</strong>Click the <span class="ui">Copy</span> button at the right end of the line below. (Or select all of it and press <kbd>Cmd</kbd> + <kbd>C</kbd>.)
+<pre><code>curl -fsSL https://billing.reazix.com/install.sh | bash</code></pre></li>
+  <li><strong>Open Terminal</strong>Press <kbd>Cmd</kbd> + <kbd>Space</kbd>, type <code>Terminal</code> and press <kbd>Return</kbd>. A plain text window opens. (More help: <a href="terminal.html#mac">Opening Terminal on a Mac</a>.)</li>
+  <li><strong>Paste and press Return</strong>Press <kbd>Cmd</kbd> + <kbd>V</kbd>, then <kbd>Return</kbd>.</li>
+  <li><strong>Watch it work</strong>It shows four steps, each ending in <b>OK</b>: <i>[1/4] Checking this computer</i>, <i>[2/4] Downloading</i> (also Node.js, the engine the app runs on, if this Mac does not have it), <i>[3/4] Installing</i>, <i>[4/4] Adding icons</i>.</li>
+  <li><strong>Answer two questions</strong><i>Add Reazix Billing to the Dock? [y/N]</i> and <i>Open Reazix Billing by itself when this computer starts? [y/N]</i>. Type <code>y</code> and press <kbd>Return</kbd> for yes, or just <kbd>Return</kbd> for no.</li>
+  <li><strong>The app opens</strong>It says <i>Done! Opening Reazix Billing...</i> and the app appears in its own window if you have Chrome or Edge, or in Safari otherwise. A short welcome asks for your business details; see <a href="first-run.html">The first-run setup</a>. You can close Terminal.</li>
+</ol>
+<p><b>Every day after that:</b> click <b>Reazix Billing</b> in the Dock or in Launchpad. (It lives in the <b>Applications</b> folder inside your home folder: Finder → <span class="ui">Go</span> → <span class="ui">Home</span> → <b>Applications</b>.)</p>
+<p><b>To update or repair it:</b> paste the same line again. It backs up your data to <code>Documents/Reazix Billing Backups</code> and replaces only the app's own files; your invoices, clients and settings stay as they are.</p>
+<p>If something goes wrong, Terminal shows <b>PROBLEM</b> and, under it, what to do. Do that, then paste the line again.</p>
+<p>The app's files are in <code>Applications/Reazix Billing</code> in your home folder; your data is in <code>_system/data</code> inside it.</p>
+</section>
+
+<section id="uninstall-mac">
+<h2><a class="anchor" href="#uninstall-mac" aria-label="Link to this section">#</a>Removing the app</h2>
+<p><b>The easy way:</b> in the app, open <span class="ui">Control Panel</span> and use <span class="ui">Remove…</span>, then tick what else to delete. See <a href="control-panel.html#remove">Remove the App</a>.</p>
+<p><b>Or</b> paste this into Terminal and press <kbd>Return</kbd>:</p>
+<pre><code>curl -fsSL https://billing.reazix.com/install.sh | bash -s -- --uninstall</code></pre>
+<p>It removes the app and its icon. Your invoices are kept unless you type <code>DELETE</code> when it asks. If the app is in the Dock, drag it out.</p>
+</section>
+
+<section id="zip">
+<h2><a class="anchor" href="#zip" aria-label="Link to this section">#</a>Other way: download the ZIP</h2>
+<p>Three parts: install Node.js, download the app, open it. About 10 minutes.</p>
+</section>
+
+<section id="node">
+<h2><a class="anchor" href="#node" aria-label="Link to this section">#</a>Part 1: Install Node.js (once)</h2>
+<p>Node.js is free software the app runs on. It installs like any other Mac app.</p>
+<ol class="steps">
+  <li><strong>Go to nodejs.org</strong>Open <a href="https://nodejs.org/en/download">nodejs.org/en/download</a> in Safari or Chrome.</li>
+  <li><strong>Download the macOS Installer</strong>Click the button for the <b>macOS Installer (.pkg)</b> of the <b>LTS</b> version. (LTS means the stable version.)</li>
+  <li><strong>Open the downloaded file</strong>Click the download arrow in your browser, or open <b>Finder</b> → <b>Downloads</b>, and double-click the file whose name starts with <code>node-v</code> and ends in <code>.pkg</code>.</li>
+  <li><strong>Click through the installer</strong><span class="ui">Continue</span>, <span class="ui">Continue</span>, <span class="ui">Agree</span>, <span class="ui">Install</span>. Type your Mac password when asked and click <span class="ui">Install Software</span>. Then <span class="ui">Close</span>. (If it asks to move the installer to the Bin, that is fine.)</li>
+</ol>
+</section>
+
+<section id="download">
+<h2><a class="anchor" href="#download" aria-label="Link to this section">#</a>Part 2: Download and unzip the app</h2>
+<ol class="steps">
+  <li><strong>Download</strong><a class="download" href="https://billing.reazix.com/download/Reazix-Billing.zip">Download Reazix Billing</a></li>
+  <li><strong>Find it in Downloads</strong>Open <b>Finder</b> (the blue face in the Dock) and click <b>Downloads</b> on the left. <b>Safari</b> usually unzips it for you, so you see a folder called <b>Reazix-Billing</b>. If you see <code>Reazix-Billing.zip</code> instead, double-click it to unzip.</li>
+  <li><strong>Move the folder to Documents</strong>Drag the <b>Reazix-Billing</b> folder onto <b>Documents</b> on the left of Finder, so it is not deleted when Downloads is cleared. Your invoices will be kept inside it.</li>
+</ol>
+</section>
+
+<section id="open">
+<h2><a class="anchor" href="#open" aria-label="Link to this section">#</a>Part 3: Open it the first time</h2>
+<p>Apple asks you to confirm apps that are not from the App Store. This is needed <b>once</b>.</p>
+<ol class="steps">
+  <li><strong>Control-click the launcher</strong>In the Reazix-Billing folder, hold the <kbd>Control</kbd> key and click <b>Reazix Billing - MAC</b> (or right-click it, or click with two fingers on a trackpad). Choose <span class="ui">Open</span>.</li>
+  <li><strong>Confirm</strong>A box says macOS cannot check the developer. Click <span class="ui">Open</span>.</li>
+  <li><strong>On macOS 15 Sequoia or newer, if there is no Open button</strong>Click <span class="ui">Done</span>. Open the Apple menu (the apple logo) → <span class="ui">System Settings</span> → <span class="ui">Privacy &amp; Security</span>, scroll down to the message about <b>Reazix Billing - MAC</b>, click <span class="ui">Open Anyway</span>, type your password, then <span class="ui">Open Anyway</span> again.</li>
+  <li><strong>A Terminal window opens</strong>It is a plain text window; you do not need to type anything in it. (A download from before version 1.10.83 asks <i>Install now? [Y/n]</i>: press <kbd>Return</kbd>.)</li>
+  <li><strong>Wait up to a minute</strong>When it says <i>Server running. This window can be closed</i>, the app opens in your browser at <code>http://localhost:47371</code>.</li>
+  <li><strong>Close the Terminal window</strong>The app keeps running. A short welcome asks for your business details; see <a href="first-run.html">The first-run setup</a>.</li>
+</ol>
+</section>
+
+<section id="mac-messages">
+<h2><a class="anchor" href="#mac-messages" aria-label="Link to this section">#</a>If the Mac shows a message</h2>
+<ul>
+  <li><strong>"could not be executed because you do not have appropriate access privileges"</strong>: you have a download from before v1.10.82. Download it again (Part 2), or fix this copy: open Terminal (see <a href="terminal.html#mac">Opening Terminal on a Mac</a>), type <code>chmod +x</code> and a space, drag <b>Reazix Billing - MAC</b> from Finder into the Terminal window, press <kbd>Return</kbd>, then go back to Part 3.</li>
+  <li><strong>"Node.js is not installed"</strong> in the Terminal window: do Part 1, then open the launcher again. If it asks <i>Open the Node.js download page now? [y/N]</i>, type <code>y</code> and press <kbd>Return</kbd>.</li>
+  <li><strong>"Node.js ... is too old"</strong>: install the current LTS from nodejs.org (Part 1); it replaces the old one.</li>
+  <li><strong>"The app cannot reach the internet"</strong> or the install stops: check the Wi-Fi, then open the launcher again; it carries on.</li>
+</ul>
+<p>More in <a href="troubleshooting.html#mac-blocked">The Mac will not open the launcher</a>.</p>
+</section>
+
+<section id="every-day">
+<h2><a class="anchor" href="#every-day" aria-label="Link to this section">#</a>Every day after that</h2>
+<ol class="steps">
+  <li><strong>Double-click "Reazix Billing - MAC"</strong>After the first time, a normal double-click works. If the app is already running it just opens your browser.</li>
+</ol>
+<p><b>Tip:</b> make a Desktop shortcut. Control-click the launcher → <span class="ui">Make Alias</span>, and drag the alias to your Desktop. You can also bookmark <code>http://localhost:47371</code> in your browser; it works while the app is running.</p>
+<p>To stop the app: in the app open <b>Control Panel</b> in the sidebar and click <span class="ui">Stop Server</span>. Restarting the Mac also stops it.</p>
+<p>Your data is in <code>Reazix-Billing/_system/data</code>. Updating: see <a href="update.html#mac">Updating on a Mac</a>; never drag a new download over the old folder.</p>
+</section>
+
+    </div>
+    <nav class="pager" aria-label="Previous and next page">
+      <a class="prev" href="install.html"><span>Previous</span>Install on Windows</a>
+      <a class="next" href="install-linux.html"><span>Next</span>Install on Linux / NAS</a>
+    </nav>
+    <footer class="foot">
+      <p>Reazix Billing Software is made by <a href="https://reazix.com">Reazix</a>. Something wrong or missing on this page?
+      <a href="mailto:contact@reazix.com">Email contact@reazix.com</a>.</p>
+    </footer>
+  </main>
+  <aside class="toc" aria-label="On this page">
+    <p class="toc-heading">On this page</p>
+    <ul><li><a href="#before">Before you start</a></li><li><a href="#one-line">Install with one line</a></li><li><a href="#uninstall-mac">Removing the app</a></li><li><a href="#zip">Other way: download the ZIP</a></li><li><a href="#node">Part 1: Install Node.js (once)</a></li><li><a href="#download">Part 2: Download and unzip the app</a></li><li><a href="#open">Part 3: Open it the first time</a></li><li><a href="#mac-messages">If the Mac shows a message</a></li><li><a href="#every-day">Every day after that</a></li></ul>
+  </aside>
+</div>
+<script src="assets/search-index.js" defer></script>
+<script src="assets/docs.js" defer></script>
+</body>
+</html>

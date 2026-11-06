@@ -1,0 +1,63 @@
+# Reazix Billing Software
+
+> GST billing and invoicing software for small businesses in India, also usable in 20 currencies. It runs on the user's own Windows, macOS or Linux computer and opens in the web browser; there is no account, no subscription and no cloud; it is bought once. Version 1.0.0, made by Reazix.
+
+It makes GST tax invoices, bills of supply, proforma estimates, credit notes and delivery challans; works out CGST, SGST, UTGST and IGST; tracks payments, clients, products and stock, purchases and expenses; and prepares GSTR-1 and GSTR-3B JSON for the GST portal. It does not file returns itself and does not generate e-invoice IRNs.
+
+- Download (always the latest version): https://billing.reazix.com/download/Reazix-Billing.zip
+- Contact: contact@reazix.com
+- Everything in one file: https://billing.reazix.com/help/llms-full.txt
+
+## Start here
+
+- [Reazix Billing documentation](https://billing.reazix.com/help/): Make GST invoices, keep track of who owes you, and prepare your GST returns. On your own computer, with no account and no monthly fee.
+- [Install on Windows, step by step](https://billing.reazix.com/help/install.html): Paste one line and press Enter. About 3 minutes, no technical knowledge needed, no administrator password, and no "Windows protected your PC" warning. Every step below says what to press and what you…
+- [Install on a Mac, step by step](https://billing.reazix.com/help/install-mac.html): Paste one line into Terminal and press Return. About 3 minutes, no password, and no "Apple cannot check it" message. Every step says what you will see.
+- [Install on Linux or a NAS, step by step](https://billing.reazix.com/help/install-linux.html): For Ubuntu, Linux Mint, Debian, Fedora and similar: paste one line into the Terminal and press Enter. No password needed. Each step is explained.
+- [Updating the app, step by step](https://billing.reazix.com/help/update.html): Your purchase includes 3 years of updates. Updating keeps all your invoices, clients and settings, and the app backs them up first. The easiest way is one button inside the app.
+- [The first-run setup](https://billing.reazix.com/help/first-run.html): The screens you see the first time the app opens: a four-step welcome for your business details, then a three-step setup for how your invoices look. Both can be skipped and changed later.
+- [Your first invoice](https://billing.reazix.com/help/first-invoice.html): From a blank app to a GST tax invoice you can send, in about five minutes.
+- [GST basics for new business owners](https://billing.reazix.com/help/gst-basics.html): GST in plain words for a first-time shop owner, freelancer or small manufacturer: whether you need to register, which rate to charge, how to find your HSN or SAC code, which bill to give, returns and…
+- [Is it safe? Security and privacy](https://billing.reazix.com/help/security.html): Plain answers for anyone who wonders whether it is safe to keep their business books in it: where your data is, what the app connects to, and how to check it yourself.
+
+## Invoicing
+
+- [Making an invoice](https://billing.reazix.com/help/invoices.html): Every card of the New Invoice screen, from top to bottom: the toolbar, the document type, the client, invoice details, ship-to and order details, the items, discounts, GST, TDS and TCS, terms, extra…
+- [Customize: what prints and how](https://billing.reazix.com/help/invoice-options.html): The Customize panel on the invoice screen: title, currency, style, colour, every show-or-hide option, paper size and thermal settings, and exactly what each part of the printed invoice shows.
+- [Thermal receipt printing](https://billing.reazix.com/help/thermal-printing.html): Printing bills on a 58 mm or 80 mm receipt printer at a shop counter, from setting it up to what the receipt shows.
+- [Dashboard](https://billing.reazix.com/help/dashboard.html): Your invoices at a glance: what you have sold, what you are owed, what is overdue, and every action you can take on an invoice.
+
+## Clients, stock and payments
+
+- [Clients](https://billing.reazix.com/help/clients.html): Everyone you bill, what each one owes, their account statement, and how quickly they pay.
+- [Products and stock](https://billing.reazix.com/help/products.html): Save what you sell once, then pick it on every invoice. Stock goes down as you sell and up as you buy.
+- [Payment receipts](https://billing.reazix.com/help/receipts.html): Receipts for money you have received, whether against an invoice or not, ready to print.
+- [Cash book](https://billing.reazix.com/help/cash-book.html): Every rupee that comes in or goes out in cash, with names and notes, and how much cash you should have in the drawer right now.
+- [Recurring invoices](https://billing.reazix.com/help/recurring.html): Invoices that repeat on a schedule, such as a monthly retainer, rent or an annual maintenance contract.
+
+## Buying
+
+- [Purchase bills](https://billing.reazix.com/help/purchases.html): Record every supplier bill, so the GST you paid comes back as input tax credit and your stock stays right. Includes reading a bill from a photo, importing bills from a CSV file, and purchase orders…
+- [Expenses](https://billing.reazix.com/help/expenses.html): Costs that are not stock, such as rent, electricity, software or travel, for your profit and loss, your income tax and the GST credit on them.
+
+## Tax and reports
+
+- [GST returns](https://billing.reazix.com/help/gst-returns.html): GSTR-1 and GSTR-3B built from the invoices, purchases and expenses you have already entered, checked against GSTR-2B, and ready to upload to the GST portal.
+- [Reports](https://billing.reazix.com/help/reports.html): Profit and loss, who owes you and for how long, party outstanding by month, your best clients, your best-selling products, closing stock with its value, TDS and TCS, and profit by branch or project.…
+- [Income tax helper](https://billing.reazix.com/help/income-tax.html): Estimate your income tax under the old and new regimes, presumptive taxation (44AD, 44ADA, 44AE), advance tax, bank statement import, and an ITR-4 summary to file from.
+
+## Setting up
+
+- [Settings](https://billing.reazix.com/help/settings.html): Every tab of Settings, card by card, in the order the tabs appear: Business type, Company, Profiles, Terms, Print & PDF, Features, Stock, Region, App lock, Backups, Google Drive, Import/Export and…
+- [Print and PDF settings](https://billing.reazix.com/help/print-settings.html): The app-wide defaults for how every invoice looks on paper and in a PDF: business-type presets, designs, thermal receipts, copies, watermarks, fonts, colours, languages and formats. Each part of the…
+- [Backups, updates and moving PC](https://billing.reazix.com/help/backup.html): Your data is plain files on your own computer. Here is how it is backed up, how to keep a copy somewhere safe, update the app, and move to a new computer.
+- [Control Panel](https://billing.reazix.com/help/control-panel.html): Update, back up, restore, move to another PC, open your folders, and stop the app, from inside the app.
+
+## Help
+
+- [Getting around the app](https://billing.reazix.com/help/shortcuts.html): The sidebar, switching business, notifications, quick search with Ctrl + K, keyboard shortcuts and dark mode.
+- [Troubleshooting and questions](https://billing.reazix.com/help/troubleshooting.html): Every message the app, the launcher and the installer can show, what it means, and the steps to fix it yourself.
+- [Using the Terminal, for beginners](https://billing.reazix.com/help/terminal.html): Some fixes ask you to type a command. The Terminal (Command Prompt on Windows) is just a window where you type an instruction and press Enter. This page shows how, on every computer.
+- [What the app does not do](https://billing.reazix.com/help/limitations.html): So you can plan around them: the things this app leaves to the government portals, your CA, or other tools.
+- [Glossary](https://billing.reazix.com/help/glossary.html): The GST and tax terms used in the app and in these pages, in plain words.
+- [Help & Support](https://billing.reazix.com/help/support.html): How to reach Reazix, what your purchase includes, and what changed in each update.

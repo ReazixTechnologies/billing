@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://billing.reazix.com/help/sitemap.xml
