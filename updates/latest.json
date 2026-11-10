@@ -1,13 +1,13 @@
 {
-  "tag_name": "v1.0.0",
-  "name": "Reazix Billing 1.0.0",
-  "body": "**The first release of Reazix Billing.**\n\n### How to update\n\n**Current version:** none  →  **New version:** 1.0.0\n\nThis is the first version, so there is nothing to update. Later versions\narrive through **Update** in the app's menu, or by downloading\n`Reazix-Billing.zip` from billing.reazix.com and opening it over your current\nfolder. Your invoices and settings are kept.\n\n### Included\n- **GST invoicing:** tax invoices, proforma, credit notes, bill of supply and\n  delivery challans, with CGST / SGST / IGST worked out from the place of supply.\n- **GST returns:** GSTR-1 and GSTR-3B JSON exports, GSTR-2B reconciliation,\n  e-Way Bill and e-invoice JSON.\n- **Barcode scanning:** give each product a barcode, then scan it on an\n  invoice with a USB or Bluetooth scanner. Each scan adds the product, or one\n  more of it.\n- **Stock and purchases:** products, purchase bills and orders, stock reports\n  and manufacturing.\n- **Money:** payments, receipts, expenses, cash book, TDS / TCS reports and\n  income tax helpers.\n- **Works offline:** your data stays on your computer, with daily backups and\n  an optional PIN lock.",
+  "tag_name": "v1.0.1",
+  "name": "Reazix Billing 1.0.1",
+  "body": "**Product key activation.**\n\n### How to update\n\n**Current version:** 1.0.0  →  **New version:** 1.0.1\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\nAfter the update the app asks once for your product key.\n\n### Changed\n- **Product key:** the app now opens with a product key from Reazix, entered\n  once and valid for life. The first screen shows this PC's code: send it to\n  Reazix and paste the key you get back. One key works on one PC.\n- **Shop details from the key:** a key can carry the business name, GSTIN and\n  address. They fill the invoice header by themselves and stay fixed.\n- **More counters:** a shop's second (third...) counter gets its own key, the\n  same header, and its own invoice numbers (C2/..., C3/...), so two counters\n  never print the same number.",
   "html_url": "https://billing.reazix.com/help/support.html#whats-new",
-  "published_at": "2026-11-06T00:00:00Z",
+  "published_at": "2026-11-09T00:00:00Z",
   "assets": [
     {
-      "name": "Reazix-Billing-v1.0.0.zip",
-      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.0.zip"
+      "name": "Reazix-Billing-v1.0.1.zip",
+      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.1.zip"
     }
   ]
 }
