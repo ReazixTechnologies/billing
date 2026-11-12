@@ -1,13 +1,16 @@
 {
-  "tag_name": "v1.0.1",
-  "name": "Reazix Billing 1.0.1",
-  "body": "**Product key activation.**\n\n### How to update\n\n**Current version:** 1.0.0  →  **New version:** 1.0.1\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\nAfter the update the app asks once for your product key.\n\n### Changed\n- **Product key:** the app now opens with a product key from Reazix, entered\n  once and valid for life. The first screen shows this PC's code: send it to\n  Reazix and paste the key you get back. One key works on one PC.\n- **Shop details from the key:** a key can carry the business name, GSTIN and\n  address. They fill the invoice header by themselves and stay fixed.\n- **More counters:** a shop's second (third...) counter gets its own key, the\n  same header, and its own invoice numbers (C2/..., C3/...), so two counters\n  never print the same number.",
+  "tag_name": "v1.0.2",
+  "name": "Reazix Billing 1.0.2",
+  "body": "**Shortcut keys, printing without the print window, and a roomier invoice screen.**\n\n### How to update\n\n**Current version:** 1.0.1  →  **New version:** 1.0.2\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\n\n### New\n- **Shortcut keys like MARG:** Alt+N new bill, Alt+M bill list, Alt+P\n  purchases, Alt+C delivery challan, Alt+V receipts, Ctrl+I products,\n  Ctrl+L clients, Alt+F10 reports, F2 new (on any screen), F11 print,\n  Ctrl+F1 list of keys, Ctrl+Q lock. Change or turn off any key in\n  Settings › Shortcut keys.\n- **Enter goes to the next box** while filling a bill. Enter on the last box\n  of an item row adds the next row. Turn it off in Settings › Shortcut keys.\n- **Print without the print window:** in Settings › Print & PDF, choose your\n  printer once. After that, Print sends the bill straight to it. If the\n  printer does not take it, the normal print window opens instead.\n- **Print also saves the bill's PDF** in Saved Invoices.\n- **Phone No. and Attended By** on the Billed To card, both optional.\n  Attended By is printed on the bill when filled.\n\n### Safer\n- **Updates are checked before they install:** every update is signed by\n  Reazix, and the app installs only a signed update. A changed or fake file\n  is refused and nothing on your PC is touched.\n- **Only this PC can open the app's data:** a website cannot read your\n  invoices through the browser, even with tricks.\n\n### Changed\n- **Invoice screen:** the bill preview is on the right with the Invoice Type\n  card under it, and the form side is wider. The preview remembers where you\n  left it and scrolls to the item you are typing.",
   "html_url": "https://billing.reazix.com/help/support.html#whats-new",
-  "published_at": "2026-11-09T00:00:00Z",
+  "published_at": "2026-11-12T00:00:00Z",
   "assets": [
     {
-      "name": "Reazix-Billing-v1.0.1.zip",
-      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.1.zip"
+      "name": "Reazix-Billing-v1.0.2.zip",
+      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.2.zip",
+      "size": 25166597,
+      "sha256": "cb56e1e00ecb212420a375adcaf6f454b9e573bf8ebbaf06166bf29a46af8228",
+      "signature": "yvlLzPv5GRi7YJCDFmZ4LfMAPTxM7GkDAu2ax7t1PLzKrqRinrCOMDeuq+VlCajXUee2VVAeDVrXci4nJMNqBg=="
     }
   ]
 }
