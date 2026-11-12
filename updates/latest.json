@@ -1,16 +1,16 @@
 {
-  "tag_name": "v1.0.3",
-  "name": "Reazix Billing 1.0.3",
-  "body": "**Updates finish by themselves, on Windows and Mac.**\n\n### How to update\n\n**Current version:** 1.0.2  →  **New version:** 1.0.3\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\nOn Windows, if the app keeps showing \"Updating…\" for more than 3 minutes,\nclose the app and open it again: the update is already installed. From the\nnext update on, this does not happen.\n\n### Fixed\n- **Windows: Update no longer stays on \"Updating…\"** after the work is done.\n- **The app restarts by itself after an update** (Windows and Mac), and\n  opens in the new version. No need to close and open it.\n- **Mac: shortcut keys are shown with the Control key** (Control + Q, not\n  ⌘ + Q, which closes the browser). Both keys still work.",
+  "tag_name": "v1.0.4",
+  "name": "Reazix Billing 1.0.4",
+  "body": "**Installing on a new PC works first time.**\n\n### How to update\n\n**Current version:** 1.0.3  →  **New version:** 1.0.4\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\n\n### Fixed\n- **Install on Windows:** no more \"Access to the path ... is denied\" while\n  installing. Windows Search reads the new files for a moment; the\n  installer now waits and tries again.\n- **First start on a new PC:** the app window opens at once on the product\n  key screen, instead of waiting 90 seconds and saying the server did not\n  answer (Windows and Mac).",
   "html_url": "https://billing.reazix.com/help/support.html#whats-new",
   "published_at": "2026-11-12T00:00:00Z",
   "assets": [
     {
-      "name": "Reazix-Billing-v1.0.3.zip",
-      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.3.zip",
-      "size": 25167313,
-      "sha256": "8f285d284093769e299155b066abe02da9f618e46001794e3a88cec1d3a6167c",
-      "signature": "K//PoRbISwaf82JEbI+0Hyf/fVfBJCNY2ur9DZSN/Z83pHeUWv+ky/4kobX8CdSLWjeGSNPamw2YN6p0fyIvDQ=="
+      "name": "Reazix-Billing-v1.0.4.zip",
+      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.4.zip",
+      "size": 25167553,
+      "sha256": "7c2e944b9502352bfa7111fcb08a3994aeb5d27bf8c623c6b48c14179f01089e",
+      "signature": "UcWpylaLAX64J9nyZPdGwNmkLXFcuIYIxBF7YKkJyVdvrlqbD+Rd9g2zqe//VeIxe5n9F2O/07DFcYHkqRepCA=="
     }
   ]
 }
