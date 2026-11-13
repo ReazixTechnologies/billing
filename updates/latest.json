@@ -1,16 +1,16 @@
 {
-  "tag_name": "v1.0.4",
-  "name": "Reazix Billing 1.0.4",
-  "body": "**Installing on a new PC works first time.**\n\n### How to update\n\n**Current version:** 1.0.3  →  **New version:** 1.0.4\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\n\n### Fixed\n- **Install on Windows:** no more \"Access to the path ... is denied\" while\n  installing. Windows Search reads the new files for a moment; the\n  installer now waits and tries again.\n- **First start on a new PC:** the app window opens at once on the product\n  key screen, instead of waiting 90 seconds and saying the server did not\n  answer (Windows and Mac).",
+  "tag_name": "v1.0.5",
+  "name": "Reazix Billing 1.0.5",
+  "body": "**New: Staff screen with sales commission.**\n\n### How to update\n\n**Current version:** 1.0.4  →  **New version:** 1.0.5\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\n\n### New\n- **Staff screen** (in the menu): add each person who works for you, with\n  phone, role, joining date and commission %.\n- **Commission report:** see each staff member's sales (before GST) and\n  commission for this month, last month, this financial year or any dates.\n  Click a name to see their invoices. Export to Excel or CSV.\n- **Attended By on the invoice** now suggests your staff names as you type.\n  The name is kept with the invoice for the report and no longer printed on\n  the customer's bill.\n- **Faster typing on the invoice:** Shift+Enter in an item line jumps to\n  Payment. On Payment, Enter moves to the next choice (Unpaid, Paid, UPI,\n  Cash...), and Shift+Enter moves on to Invoice Details.\n- Staff are kept in backups and come back with Restore.",
   "html_url": "https://billing.reazix.com/help/support.html#whats-new",
-  "published_at": "2026-11-12T00:00:00Z",
+  "published_at": "2026-11-13T00:00:00Z",
   "assets": [
     {
-      "name": "Reazix-Billing-v1.0.4.zip",
-      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.4.zip",
-      "size": 25167553,
-      "sha256": "7c2e944b9502352bfa7111fcb08a3994aeb5d27bf8c623c6b48c14179f01089e",
-      "signature": "UcWpylaLAX64J9nyZPdGwNmkLXFcuIYIxBF7YKkJyVdvrlqbD+Rd9g2zqe//VeIxe5n9F2O/07DFcYHkqRepCA=="
+      "name": "Reazix-Billing-v1.0.5.zip",
+      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.5.zip",
+      "size": 25174579,
+      "sha256": "26ba2cfb3d00348b2c1e7d29d20bee2c6247a77ab7abc07fd652ae1f9c099ee4",
+      "signature": "j/3NNaAKD8pHEffQND9kYJ9gaMH3ddwGeYRvKPq/RoTeYovXJcXeiszNZ5brv05aJzrj9UWSRMUd+MqVNznWDw=="
     }
   ]
 }
