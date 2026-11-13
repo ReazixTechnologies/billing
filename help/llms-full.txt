@@ -2886,7 +2886,7 @@ The buttons at the top of the screen:
 
 | Button | What it does |
 
-| Import CSV | Adds many clients at once from a spreadsheet. See Importing clients . |
+| Import (Excel / CSV) | Adds many clients at once from a spreadsheet. See Importing clients . |
 
 | Add Client | Opens the client form for a new client. See Adding and editing a client . |
 
@@ -3124,14 +3124,16 @@ The balance looks wrong: check that each payment was recorded on the right invoi
 
 ## Importing clients from a spreadsheet
 
-Moving from another program or an Excel list? Import CSV adds many clients at once, one per row.
+Moving from another program or an Excel list? Import (Excel / CSV) adds many clients at once, one per row.
 
-- **Open the window**Click Import CSV on the Clients screen. The window **Import clients from CSV** opens.
+- **Open the window**Click Import (Excel / CSV) on the Clients screen. The window **Import clients from Excel or CSV** opens.
 - **Get the sample file**Click Download sample file. Clients-sample.csv lands in your Downloads folder, with the right column headings and two demo clients.
 - **Fill it in**Open it in Excel or Google Sheets. Replace the demo rows with your clients, one per row. Keep the first row (the headings) as it is.
-- **Save as CSV**In Excel, **File → Save As → CSV UTF-8 (Comma delimited)** or **CSV (Comma delimited)**. In Google Sheets, **File → Download → Comma-separated values**.
-- **Choose the file**Click Choose CSV file. Nothing is saved yet: the window shows how many clients are ready and how many are already in your list (skipped).
+- **Save it**Save it as Excel (.xlsx or .xls) or as CSV: all of them work.
+- **Choose the file**Click Choose file (Excel or CSV). Nothing is saved yet: the window shows how many clients are ready and how many are already in your list (skipped).
 - **Import**Click Import (such as **Import 12**). You see "Imported 12 clients", and the new cards appear.
+
+**Moving from MARG, Tally, Busy or Vyapar?** Export the party (ledger) list to Excel and choose that file as it is. Headings such as Party Name, Ledger Name, GSTIN/UIN, Mobile No, Address 1, Address 2 and City are understood. If the list has a Group column, only customers (Sundry Debtors) are added; suppliers, banks and expense ledgers are left out.
 
 The columns (headings in small or capital letters, in any order):
 
@@ -3178,7 +3180,7 @@ The buttons at the top of the screen:
 
 | Button | What it does |
 
-| Import CSV | Adds many products at once from a spreadsheet. See Importing products . |
+| Import (Excel / CSV) | Adds many products at once from a spreadsheet. See Importing products . |
 
 | Bulk edit | Turns the list into a grid you can type in, to change many products at once. See Bulk edit . Greyed out until you have a product. |
 
@@ -3212,7 +3214,7 @@ Products are shared by all your businesses, so each business sees the same list 
 
 Print / PDF, Excel and CSV beside the table title save the products shown, with name, type (Goods or Service), HSN/SAC, purchase price, selling price, GST %, unit and stock. Search first to save only some. Print / PDF opens the print window, where you can choose a printer or **Save as PDF**. The buttons are hidden during a bulk edit.
 
-A CSV saved here can be opened in Excel, and is a handy way to send your price list to an accountant. It can also be brought back in with Import CSV, or into another copy of the app.
+A CSV saved here can be opened in Excel, and is a handy way to send your price list to an accountant. It can also be brought back in with Import (Excel / CSV), or into another copy of the app.
 
 ### Deleting a product
 
@@ -3306,7 +3308,7 @@ Give a product its barcode once, and scanning it on an invoice adds the product.
 - One barcode belongs to one product. Saving a code another product already has shows which product has it, and nothing is saved.
 - The barcode is kept exactly as scanned, leading zeros included. Capital and small letters count as the same.
 - The search box above the list finds products by barcode too.
-- Bulk edit has a Barcode column, and Import CSV reads a **Barcode** column (also called EAN, UPC, SKU or Item code). In Excel, format that column as **Text** first: otherwise Excel turns a long barcode into a number like 8.9E+12, and the import refuses that row.
+- Bulk edit has a Barcode column, and Import reads a **Barcode** column (also called EAN, UPC, SKU or Item code). In Excel, format that column as **Text** first: otherwise Excel turns a long barcode into a number like 8.9E+12, and the import refuses that row.
 
 ## Bulk edit: changing many products at once
 
@@ -3357,16 +3359,20 @@ A product at or below your threshold shows its stock in amber here, is listed on
 
 ## Importing products from a spreadsheet
 
-Have your price list in Excel, or moving from another program? Import CSV adds all the products and services at once.
+Have your price list in Excel, or moving from another program? Import (Excel / CSV) adds all the products and services at once.
 
-- **Open the window**Click Import CSV on the Products screen. The window **Import products from CSV** opens.
+- **Open the window**Click Import (Excel / CSV) on the Products screen. The window **Import products from Excel or CSV** opens.
 - **Get the sample file**Click Download sample file. Products-sample.csv lands in your Downloads folder, with the right column headings and two demo rows: a product (Goods) and a service.
 - **Fill it in**Open it in Excel or Google Sheets. Replace the two demo rows with your own, one product or service per row. Keep the first row (the headings) as it is.
-- **Save as CSV**In Excel, **File → Save As → CSV UTF-8 (Comma delimited)** or **CSV (Comma delimited)**. In Google Sheets, **File → Download → Comma-separated values**.
-- **Choose the file**Click Choose CSV file. Nothing is saved yet: the window shows how many are ready, how many are already in your list (skipped), and every row with a problem.
+- **Save it**Save it as Excel (.xlsx or .xls) or as CSV: all of them work.
+- **Choose the file**Click Choose file (Excel or CSV). Nothing is saved yet: the window shows how many are ready, how many are already in your list (skipped), and every row with a problem.
+- **Check**The window points out what to look at before importing: products at **0% GST** (choose the GST to give them, or keep 0% for exempt goods), stock **below zero** (tick to start it at 0), and products whose selling price was taken from the **MRP**.
 - **Import**Click Import (it shows the number, such as **Import 40**). You see "Imported 40 products", and they appear in the list.
 
-The columns (headings in small or capital letters, in any order; spaces and % do not matter):
+Moving from MARG, Tally, Busy or Vyapar
+Export the item (stock) list from your old program to Excel and choose that file as it is: there is no need to fill in the sample file. A title or company name above the headings is passed over, a **Total** line at the end is left out, and the old program's headings are understood: Item Name, Item Code, HSNCode, P.Rate or Pur. Rate, Rate or Sale Rate, M.R.P., IGST (or SGST + CGST), Stock or Cl. Stock, UOM. Where the selling rate is 0 or blank, the MRP is used.
+
+The columns (headings in small or capital letters, in any order; spaces, dots and % do not matter):
 
 | Column heading | Holds |
 
