@@ -1,16 +1,16 @@
 {
-  "tag_name": "v1.0.6",
-  "name": "Reazix Billing 1.0.6",
-  "body": "**New: bring your products and customers from MARG, Tally, Busy or Vyapar.**\n\n### How to update\n\n**Current version:** 1.0.5  →  **New version:** 1.0.6\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\n\n### New\n- **Import from Excel:** on Products and Clients, **Import (Excel / CSV)**\n  now takes the Excel file (.xls or .xlsx) your old program exports, as it\n  is: no need to change it to CSV or fill in our sample file.\n- The old program's columns are found by themselves: item code, HSN, GST\n  (or SGST + CGST), rate, purchase rate, MRP, stock, unit; party name,\n  GSTIN, mobile, address.\n- **A check before importing:** products at 0% GST (pick their GST),\n  stock below zero (start it at 0), and products with no selling rate\n  (the MRP is used).\n- Report titles, repeated page headings and Total lines are left out.\n  Batches of the same medicine are joined into one product with the stock\n  added up. From a ledger list only customers are added, not suppliers or\n  banks.\n- Choosing the wrong file (a trial balance, or the item list on Clients)\n  is caught and explained instead of importing wrong data.",
+  "tag_name": "v1.0.7",
+  "name": "Reazix Billing 1.0.7",
+  "body": "**Every barcode tag from MARG works: one product, many barcodes.**\n\n### How to update\n\n**Current version:** 1.0.6  →  **New version:** 1.0.7\n\nClick **Update** in the app's menu. Your invoices and settings are kept.\n\n### New\n- **A product can have more than one barcode.** MARG prints a new barcode\n  for every purchase lot (a shirt bought in February and the same shirt\n  bought in October have different tags). Scanning any of them now bills\n  the same product.\n- **Add the barcodes to products you already imported:** on Products,\n  **Import (Excel / CSV)** and choose MARG's batch-wise stock report (the\n  one with Batch and Barcode columns). Each product gets its lots'\n  barcodes; stock and prices are not changed.\n- A new shop importing the batch-wise report gets one product per item,\n  with every lot's barcode, the stock of all lots added up, and the latest\n  lot's prices.\n- The product window has a **More barcodes** box to see or add tags.\n- Searching Products or the invoice finds a product by any of its barcodes.",
   "html_url": "https://billing.reazix.com/help/support.html#whats-new",
   "published_at": "2026-11-13T00:00:00Z",
   "assets": [
     {
-      "name": "Reazix-Billing-v1.0.6.zip",
-      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.6.zip",
-      "size": 25180529,
-      "sha256": "4bfb18d7bafac859cdabf45533fd5736d75530aa2cbe7b087418231bdf4e8590",
-      "signature": "YHaR5Iz4rsVKdUscc8JYLEdR2OfHR8HVizSPUUKv13FttepgyvSvgQcXl9HnnfNmZsOG5/n5Uka5DoL/OpFyAg=="
+      "name": "Reazix-Billing-v1.0.7.zip",
+      "browser_download_url": "https://billing.reazix.com/download/Reazix-Billing-v1.0.7.zip",
+      "size": 25181727,
+      "sha256": "1abdbcfb90ef9c4a09ad93ebb05276d6a1a0cfb38810bb832ce086c159b3003e",
+      "signature": "bvQ7C4DI+1e67M+tLQO9is7g3NE2uZ35wa4RIHCUM6BRTVEaXhHncxRkbNH0qnetpuMVPERw3hpENR01JfsFCg=="
     }
   ]
 }
